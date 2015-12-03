@@ -1,8 +1,8 @@
-package rml.service;
+package hun.service;
+
+import hun.model.MUser;
 
 import java.util.List;
-
-import rml.model.MUser;
 
 public interface MUserService {
 	List<MUser> getAll();

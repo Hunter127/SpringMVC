@@ -1,4 +1,7 @@
-package rml.controller;
+package hun.controller;
+
+import hun.model.MUser;
+import hun.service.MUserService;
 
 import java.util.List;
 import java.util.UUID;
@@ -8,9 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import rml.model.MUser;
-import rml.service.MUserService;
 
 @Controller
 @RequestMapping("/muserController")

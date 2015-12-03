@@ -1,4 +1,4 @@
-package rml.model;
+package hun.model;
 
 public class MUser {
 	private String id;

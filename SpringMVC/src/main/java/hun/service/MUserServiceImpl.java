@@ -1,12 +1,12 @@
-package rml.service;
+package hun.service;
+
+import hun.dao.MUserMapper;
+import hun.model.MUser;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import rml.dao.MUserMapper;
-import rml.model.MUser;
 
 @Service("muserService")
 public class MUserServiceImpl implements MUserService {
